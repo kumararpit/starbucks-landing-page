@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto&display=swap" rel="stylesheet">
+    <title>Starbucks</title>
+</head>
+<body>
+    <section>
+        <div class="circle">
+        </div>
+        <header>
+            <a href="#" ><img src="./images/logo.png" alt="" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h1>It'S not an only coffee <br>it's<span>Starbucks</span></h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro cum temporibus deleniti nulla blandi <br>
+                    dicta animi quibusdam obcaecati consequatur nemo ab esse quidem maxime? Nobis, pariatur.
+                </p> 
+                <a href="#">Learn more</a>
+            </div>
+           
+            <div class="imgbox">
+                <img src="img1.png" alt="" class="starbucks">
+            </div>
+        </div>
+        <ul class="tambo">
+            <li><img src="./images/thumb1.png" onclick="imgslider('img1.png')"></li>
+            <li><img src="./images/thumb2.png" onclick="imgslider('img2.png')"></li>
+            <li><img src="./images/thumb3.png" onclick="imgslider('img3.png')"></li>
+        </ul> 
+        <ul class="social">
+            <li><a href="facebook.png"></a></li>
+            <li><a href="twitter.png"></a></li>
+            <li><a href="instagram.png"></a></li>
+        </ul>  
+    </section>
+    <script type="text/javascript">
+       function imgslider(anything){
+          document.querySelector('.starbucks').src= anything;
+      }
+    </script>
+</body>
+</html>
