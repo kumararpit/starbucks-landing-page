@@ -42,7 +42,7 @@ header ul li a{
     display: inline-block;
     margin-left: 40px;
     padding: 20px;
-    font-weight: 400;
+    font-weight: 500;
     color: #333333;
 }
 .content{
@@ -59,7 +59,7 @@ header ul li a{
 .content .textbox h2{
     color: #333;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 4em;
+    font-size: 4.5em;
     line-height: 1.4em;
     font-weight: 500;
 }
